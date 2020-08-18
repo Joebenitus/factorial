@@ -9,14 +9,30 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="main-header">Factorial Calculator</h1>
+    <h1 class="jumbotron">Factorial Calculator</h1>
     <form id="user-input">
-      <label for="number">Enter a number to convert to factorial:</label><br>
-      <input id="number" type="text">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <label class="card-title" for="number">Enter a number to convert to factorial:</label><br>
+              <input id="number" type="text">
 
-      <button type="submit" class="btn btn-primary">Calculate</button>
+              <button type="submit" class="btn btn-primary">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Answer:</h4>
+              <h4 class="answer"></h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </form>
-    <h4 class="answer"></h4>
+    <!-- <h4 class="answer"></h4> -->
   </div>
 </body>
 </html>
